@@ -35,6 +35,25 @@ def calculadora():
         print("Resultado:", resultado)       
 
 
+    elif opcion == 3:  
+        a = float(input("Ingrese el número 1: "))
+        b = float(input("Ingrese el número 2: "))
+        print("Resultado:", a * b)
+ 
+    elif opcion == 4: 
+        a = float(input("Ingrese el número 1: "))
+        b = float(input("Ingrese el número 2: "))
+        if b != 0:
+            print("Resultado:", a / b)
+        else:
+            print("Error: no se puede dividir entre 0")
+  
+    else:
+        print("Opción no válida")
+
+
+
+
 calculadora()
 
 
